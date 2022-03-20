@@ -1,0 +1,197 @@
+
+
+
+
+.cover {
+    display: flex;
+}
+
+
+html, body {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;	
+      /*prevents white space from the right side*/
+  }
+
+ nav{
+     padding-bottom: 32px;
+     padding-top: 22px;
+ }
+ 
+.cover_container{
+justify-content: center;
+background-image: url("./cover_2.jpg");
+background-repeat: no-repeat;   
+background-size: cover;
+background-attachment: relative;
+background-position: center 1px; /* I had to change the number for center -238px to 1px in order for the entire picture to appear*/
+height: 50rem;
+width: 109%;
+}
+
+
+.overlay {
+ background:rgba(0,0,0,0.5);
+ /*height: 87vh;*/
+ height: 52vw;
+ margin-top: 0.1rem;
+ width: 100%;
+}
+
+.overlay h1  {
+position: absolute;
+margin-top: 22rem;
+margin-left: 35rem;
+color: #fff;
+font-size: 3.5rem;
+}
+
+.overlay h3 {
+    position: absolute;
+margin-top: 27rem;
+    color: #fff;
+    margin-left: 30rem;
+}
+
+
+
+.cover_description {
+    position: relative;
+    top: 30rem;
+    left: 27.5rem;
+    color: #fff;
+    text-align: center;
+    word-wrap: break-word;
+    width: 45%;
+    animation: typingt 20s, steps{100} infinite;
+    overflow: hidden;
+}
+
+.service {
+    position: absolute;
+    /*margin=left: 40rem;*/
+    color: #000000;
+    left: 43rem;
+    margin-top: 6rem;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-start;
+  
+    margin-top: 14rem;
+}
+
+#graphic_design {
+    word-wrap: break-word;
+    width: 100%;
+}
+
+
+.card-deck {
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 12rem;
+    width: 87%;
+}
+
+.card-deck {
+    text-align: center;
+}
+
+ul, 
+li {
+  list-style-type: none;
+}
+
+/*END OF THE HOME PAGE*/
+
+
+.banner {
+    background-image: url("./education.jpg");
+    background-repeat: no-repeat;   
+background-size: cover;
+background-attachment: relative;
+width: 100%;
+}
+
+.overlay_two {
+    background:rgba(0,0,0,0.2);
+    /*height: 87vh;*/
+    height: 32vw;
+    margin-top: 0.1rem;
+    width: 100%;
+}
+
+.overlay_two h1  {
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 35rem;
+    color: #fff;
+    font-size: 3.5rem;
+    }
+
+.container {
+    margin-top: 15rem;
+}
+
+.container h3 {
+    margin-top: 4rem;
+}
+
+/*END OF EDUCATION PAGE*/
+
+.banner_two {
+    background-image: url("./contact.jpg");
+    background-repeat: no-repeat;   
+background-size: cover;
+background-attachment: relative;
+width: 100%;
+height: 66vh;
+}
+
+.overlay_three {
+    background:rgba(0,0,0,0.2);
+    /*height: 87vh;*/
+    height: 66vh;
+    margin-top: 0.1rem;
+    width: 100%;
+}
+
+.overlay_three h1 {
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 42rem;
+   color:#fff;
+}
+
+.contact_form {
+    position: relative;
+    margin-left: 14rem;
+}
+
+form {
+    position: relative;
+    margin-left: 4rem;
+    margin-right: 15rem;
+    margin-top: 10rem;
+    padding-right: 74px;
+    padding-left: 74px
+}
+
+.container_four {
+    margin-left: 28rem;
+    margin-top: 8rem;
+}
+
+
+
+.bi  {
+    color: #000000;
+    width: 8rem;
+}
+
+footer {
+    margin-top: 63rem;
+}
